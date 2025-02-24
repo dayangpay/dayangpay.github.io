@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>DaYangPay</title><meta name="description" content="Documentation for Merchants">
+    <link rel="preload" href="/assets/style-Ck16RONB.css" as="style"><link rel="stylesheet" href="/assets/style-Ck16RONB.css">
+    <link rel="modulepreload" href="/assets/app-qrxt60JZ.js"><link rel="modulepreload" href="/assets/404.html-Dbpaf-BD.js">
+    <link rel="prefetch" href="/assets/index.html-DErlVR0n.js" as="script"><link rel="prefetch" href="/assets/balance.html-Cr-X8dYp.js" as="script"><link rel="prefetch" href="/assets/channels.html-CE7pap23.js" as="script"><link rel="prefetch" href="/assets/get-a-transaction.html-DYXE11U_.js" as="script"><link rel="prefetch" href="/assets/get-account-balances.html-nMdqhi2Q.js" as="script"><link rel="prefetch" href="/assets/introduction.html-BparfkGp.js" as="script"><link rel="prefetch" href="/assets/payment-notification.html-RH_R-a_t.js" as="script"><link rel="prefetch" href="/assets/payment-query.html-DNwypZBI.js" as="script"><link rel="prefetch" href="/assets/payment.html-BNoS0R4-.js" as="script"><link rel="prefetch" href="/assets/receive-money.html-ItU0wMbg.js" as="script"><link rel="prefetch" href="/assets/responses.html-BbZL1hGu.js" as="script"><link rel="prefetch" href="/assets/send-money.html-CMfAFwya.js" as="script"><link rel="prefetch" href="/assets/signature.html-BR-mMGdE.js" as="script"><link rel="prefetch" href="/assets/transfer-notification.html-liBgKSvd.js" as="script"><link rel="prefetch" href="/assets/transfer-query.html-D0R77AUh.js" as="script"><link rel="prefetch" href="/assets/transfer.html-D9-mwHmR.js" as="script"><link rel="prefetch" href="/assets/webhooks.html-DUojldEl.js" as="script"><link rel="prefetch" href="/assets/index.html-BB8QvdwW.js" as="script"><link rel="prefetch" href="/assets/brazil.html-fE_EAWTT.js" as="script"><link rel="prefetch" href="/assets/china.html-zalko8FM.js" as="script"><link rel="prefetch" href="/assets/india.html-56cgZhxR.js" as="script"><link rel="prefetch" href="/assets/indonesia.html-Cv8xx0Tq.js" as="script"><link rel="prefetch" href="/assets/mexico.html-CuQdQdnc.js" as="script"><link rel="prefetch" href="/assets/nigeria.html-CWfjKa1g.js" as="script"><link rel="prefetch" href="/assets/philippines.html-B7Qqchdr.js" as="script"><link rel="prefetch" href="/assets/south-africa.html-Cx6Y7BOF.js" as="script"><link rel="prefetch" href="/assets/thailand.html-BirL4Gs1.js" as="script"><link rel="prefetch" href="/assets/ukraine.html-DOqdM9tt.js" as="script"><link rel="prefetch" href="/assets/vietnam.html-BxLA-bZk.js" as="script"><link rel="prefetch" href="/assets/index.html-Cc_PbFMZ.js" as="script"><link rel="prefetch" href="/assets/balance.html-Dqjx9LI-.js" as="script"><link rel="prefetch" href="/assets/channels.html-twNbVNV0.js" as="script"><link rel="prefetch" href="/assets/introduction.html-DL2qnerE.js" as="script"><link rel="prefetch" href="/assets/payment-notification.html-BvqjvS2T.js" as="script"><link rel="prefetch" href="/assets/payment-query.html-BrMW-Lj5.js" as="script"><link rel="prefetch" href="/assets/payment.html-DsIWEt7B.js" as="script"><link rel="prefetch" href="/assets/responses.html-Dx7B8YOt.js" as="script"><link rel="prefetch" href="/assets/signature.html-BbP7XvhF.js" as="script"><link rel="prefetch" href="/assets/transfer-notification.html-CW0kO0Wb.js" as="script"><link rel="prefetch" href="/assets/transfer-query.html-DLSbm4kY.js" as="script"><link rel="prefetch" href="/assets/transfer.html-Dhn-_J50.js" as="script"><link rel="prefetch" href="/assets/index.html-C24zS-UD.js" as="script"><link rel="prefetch" href="/assets/brazil.html-CilpvLiN.js" as="script"><link rel="prefetch" href="/assets/china.html-aqD5eNBL.js" as="script"><link rel="prefetch" href="/assets/india.html-YS5OFJZ9.js" as="script"><link rel="prefetch" href="/assets/indonesia.html-Ct4B2NZL.js" as="script"><link rel="prefetch" href="/assets/mexico.html-C1VfjhHu.js" as="script"><link rel="prefetch" href="/assets/nigeria.html-lg7cNwRb.js" as="script"><link rel="prefetch" href="/assets/philippines.html-kzp1Aceu.js" as="script"><link rel="prefetch" href="/assets/south-africa.html-Bmhz6iiR.js" as="script"><link rel="prefetch" href="/assets/thailand.html-DCFEGYOC.js" as="script"><link rel="prefetch" href="/assets/ukraine.html-fOu62tT6.js" as="script"><link rel="prefetch" href="/assets/vietnam.html-BIiRPFtK.js" as="script"><link rel="prefetch" href="/assets/AppName-BIaJfVB3.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-QXEOFQJV-ByeSpCmT.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-206b4325><main class="page" data-v-206b4325><div vp-content data-v-206b4325><h1 data-v-206b4325>404</h1><blockquote data-v-206b4325>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/" data-v-206b4325>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-qrxt60JZ.js" defer></script>
+  </body>
+</html>
